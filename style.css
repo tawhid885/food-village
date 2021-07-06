@@ -12,10 +12,15 @@ body{
 }
 h1{
     font-size: 50px;
+    color: rgb(116, 114, 114);
 }
 h2{
     font-size: 40px;
     color: gray;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
 }
 .orange{
     color: orange;
@@ -63,6 +68,7 @@ h2{
 .nav{
     /* border: 2px solid red; */
     box-shadow: 5px 5px 10px gray;
+    font-size: 1.1em;
 }
 .nav ul{
     list-style-type: none;
@@ -112,4 +118,35 @@ h2{
 }
 .about-me .writing-part p{
     margin-bottom: 50px;
+}
+
+/* -------------CSS for Recipies--------------------- */
+.my-recipes{
+    margin-bottom: 100px;
+    /* border: 2px solid red; */
+}
+.recipie{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recipie p{
+
+}
+.items{
+    text-align: center;
+}
+.item{
+    width: 28%;
+    margin-left: 50px;
+    box-shadow: 5px 5px 7px gray;
+    border-radius: 6%;
+}
+.item img{
+    width: 90%;
+    margin-top: 16px;
+    /* border: 10px solid white; */
+}
+.item p{
+    text-align: justify;
+    margin: 12px;
 }
