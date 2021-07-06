@@ -34,17 +34,15 @@ h3{
 }
 /* -----------------CSS for Headers----------------------- */
 .header{
-    /* border: 2px solid blue; */
     margin-bottom: 100px;
 }
 .search-lang{
-    /* border: 2px solid red; */
     display: inline-block;
-    margin-left: 500px;
-    /* margin-bottom: 30px; */
+    margin-left: 340px;
+    /* border: 2px solid red; */
 }
 .header .search-lang input{
-    padding: 5px;
+    padding: 7px;
     display: block;
     margin-bottom: 30px;
     margin-right: 10px;
@@ -55,18 +53,17 @@ h3{
 .header .search-lang select{
     display: block;
     padding: 10px;
-    border: 2px solid tomato;
+    border: 2px dotted tomato;
     margin-left: 50px;
     border-radius: 5px;
 }
 .header img{
     height: 100px;
-    width: 200px;
+    width: 350px;
     margin-left: 500px;
-    /* border: 2px solid green; */
+    /* border: 2px solid blue; */
 }
 .nav{
-    /* border: 2px solid red; */
     box-shadow: 5px 5px 10px gray;
     font-size: 1.1em;
 }
@@ -102,9 +99,6 @@ h3{
 
 /* ---------------------CSS for About------------------- */
 .about-me{
-    /* border: 2px solid red; */
-    /* margin-left: 45px;
-    margin-right: 45px; */
     margin-bottom: 100px;
     background-image: url(images/shapes/7.png);
 }
@@ -113,7 +107,6 @@ h3{
     height: 700px;
 }
 .about-me .writing-part{
-    /* border: 2px solid blue; */
     margin-top: 70px;
 }
 .about-me .writing-part p{
@@ -123,14 +116,10 @@ h3{
 /* -------------CSS for Recipies--------------------- */
 .my-recipes{
     margin-bottom: 100px;
-    /* border: 2px solid red; */
 }
 .recipie{
     text-align: center;
     margin-bottom: 50px;
-}
-.recipie p{
-
 }
 .items{
     text-align: center;
@@ -144,7 +133,6 @@ h3{
 .item img{
     width: 90%;
     margin-top: 16px;
-    /* border: 10px solid white; */
 }
 .item p{
     text-align: justify;
@@ -154,10 +142,8 @@ h3{
 /* --------------CSS for Social----------------- */
 .social{
     margin-bottom: 100px;
-    /* border: 2px solid blue; */
 }
 .social .social-item{
-    /* border: 2px solid red; */
     text-align: center;
     width: 30%;
     margin-left: 70px;
