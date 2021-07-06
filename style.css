@@ -44,7 +44,6 @@ h3{
 /* -----------------CSS for Headers----------------------- */
 .header{
     margin-bottom: 100px;
-    /* border: 2px solid red; */
 }
 .search-lang{
     display: inline-block;
@@ -100,7 +99,6 @@ h3{
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 100px;
-    /* border: 2px solid red; */
 }
 .banner .image img{
     width: 80%;
@@ -111,7 +109,6 @@ h3{
 .about-me{
     margin-bottom: 100px;
     background-image: url(images/shapes/7.png);
-    /* border: 2px solid red; */
 }
 .about-me .image img{
     width: 70%;
@@ -127,7 +124,6 @@ h3{
 /* -------------CSS for Recipies--------------------- */
 .my-recipes{
     margin-bottom: 100px;
-    /* border: 2px solid blue; */
 }
 .recipie{
     margin-left: 200px;
@@ -156,7 +152,6 @@ h3{
 .contact{
     margin-bottom: 100px;
     margin-left: 65px;
-    /* border: 2px solid red; */
 }
 .contact h2{
     border-bottom: 2px solid gray;
@@ -187,7 +182,6 @@ h3{
 
 /* --------------CSS for Social----------------- */
 .social{
-    /* border: 2px solid green; */
     margin-bottom: 100px;
 }
 .social .social-item{
@@ -206,7 +200,6 @@ footer{
     text-align: center;
     background-color: black;
     height: 230px;
-    /* border: 2px solid red; */
 }
 footer p{
     color: white;
