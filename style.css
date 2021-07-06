@@ -126,7 +126,7 @@ h3{
 /* -------------CSS for Recipies--------------------- */
 .my-recipes{
     margin-bottom: 100px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .recipie{
     margin-left: 200px;
@@ -151,10 +151,13 @@ h3{
     text-align: justify;
     margin: 12px;
 }
-/* ---------------CSS for Social-------------------- */
+/* ---------------CSS for Comment-------------------- */
 .comment{
     margin-bottom: 100px;
     margin-left: 100px;
+}
+.comment h2{
+    border-bottom: 2px solid gray;
 }
 .comment label{
     font-size: 1.2em;
@@ -182,7 +185,7 @@ h3{
 
 /* --------------CSS for Social----------------- */
 .social{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-bottom: 100px;
 }
 .social .social-item{
