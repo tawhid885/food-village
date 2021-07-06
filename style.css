@@ -15,6 +15,7 @@ h1{
 }
 h2{
     font-size: 40px;
+    color: gray;
 }
 .orange{
     color: orange;
@@ -29,6 +30,7 @@ h2{
 /* -----------------CSS for Headers----------------------- */
 .header{
     /* border: 2px solid blue; */
+    margin-bottom: 100px;
 }
 .search-lang{
     /* border: 2px solid red; */
@@ -85,8 +87,29 @@ h2{
 .banner{
     margin-left: 45px;
     margin-right: 45px;
+    margin-bottom: 100px;
 }
 .banner .image img{
     width: 70%;
     margin-left:20px;
+}
+
+/* ---------------------CSS for About------------------- */
+.about-me{
+    /* border: 2px solid red; */
+    /* margin-left: 45px;
+    margin-right: 45px; */
+    margin-bottom: 100px;
+    background-image: url(images/shapes/7.png);
+}
+.about-me .image img{
+    width: 70%;
+    height: 700px;
+}
+.about-me .writing-part{
+    /* border: 2px solid blue; */
+    margin-top: 70px;
+}
+.about-me .writing-part p{
+    margin-bottom: 50px;
 }
