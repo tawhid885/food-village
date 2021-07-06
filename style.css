@@ -30,7 +30,6 @@ h3{
     padding: 4px;
     background-image: linear-gradient(tomato, red);
     border-radius: 5%;
-    margin-left: 5px;
     margin-top: 9px;
     display: inline-block;
     cursor: pointer;
@@ -129,8 +128,11 @@ h3{
     margin-bottom: 100px;
 }
 .recipie{
-    text-align: center;
+    /* border: 2px solid red; */
+    margin-left: 200px;
     margin-bottom: 50px;
+    width: 70%;
+    text-align: center;
 }
 .items{
     text-align: center;
