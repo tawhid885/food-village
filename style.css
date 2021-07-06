@@ -150,3 +150,30 @@ h3{
     text-align: justify;
     margin: 12px;
 }
+
+/* --------------CSS for Social----------------- */
+.social{
+    margin-bottom: 100px;
+    /* border: 2px solid blue; */
+}
+.social .social-item{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 30%;
+    margin-left: 70px;
+}
+.social .social-item h1{
+    color: black;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+
+/* -------------------Footer Section------------------- */
+footer{
+    text-align: center;
+    background-color: black;
+    height: 230px;
+}
+footer p{
+    color: white;
+}
