@@ -2,7 +2,91 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .flex-container{
     display: flex;
+}
+.half-width{
+    width: 50%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange{
+    color: orange;
+}
+.button-link{
+    text-decoration: none;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(255, 94, 0), tomato);
+    padding: 12px;
+    color: white;
+}
+/* -----------------CSS for Headers----------------------- */
+.header{
+    /* border: 2px solid blue; */
+}
+.search-lang{
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-left: 500px;
+    /* margin-bottom: 30px; */
+}
+.header .search-lang input{
+    padding: 5px;
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-top:10px;
+    border-radius: 5px;
+    border: 2px solid tomato;
+}
+.header .search-lang select{
+    display: block;
+    padding: 10px;
+    border: 2px solid tomato;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.header img{
+    height: 100px;
+    width: 200px;
+    margin-left: 500px;
+    /* border: 2px solid green; */
+}
+.nav{
+    /* border: 2px solid red; */
+    box-shadow: 5px 5px 10px gray;
+}
+.nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+.nav ul li{
+    display: inline-block;
+    margin:2px 25px;
+    padding: 13px;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: tomato;
+    font-weight: bold;
+}
+.nav ul li a:hover{
+    color: blueviolet;
+}
+
+/* -------------------CSS for Banner------------------ */
+.banner{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.banner .image img{
+    width: 70%;
+    margin-left:20px;
 }
